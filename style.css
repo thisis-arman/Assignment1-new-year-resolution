@@ -1,33 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-h3{
+
+h3 {
     font-size: 30px;
 }
-.banner{
+
+.banner {
     background-image: url("./images/banner/banner1.png");
     height: 100vh;
     width: 218vh;
 }
-.hero-section{
-    padding:200px 200px;
+
+.hero-section {
+    padding: 200px 200px;
     text-align: right;
 }
-.section-title{
+
+.section-title {
     font-size: 60px;
     padding: 20px 0;
 }
-.section-description{
+
+.section-description {
     padding: 20px 0;
 }
-.primary-btn{
-    background-color:#F15B22 ;
+
+.primary-btn {
+    background-color: #F15B22;
     color: white;
     padding: 10px 10px;
     font-weight: 500;
@@ -37,36 +44,77 @@ h3{
     border-radius: 5px;
     margin: 20px 0;
 }
-main{
+
+main {
     padding: 100px 180px;
 }
-.failure-section{
+
+.failure-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.previous-year-failure{
+
+.previous-year-failure {
     padding-left: 50px;
 }
-.fa-check{
+
+.fa-check {
     color: green;
 }
 
 
-.my-plans-section .section-title{
+.my-plans-section .section-title {
     text-align: center;
-    padding: 40px 0; 
+    padding: 40px 0;
 }
 
 
-.plan-items{
+.plan-items {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.plan-items h3{
+
+.plan-items h3 {
     padding: 15px 0;
 }
-.plan-items img{
+
+.plan-items img {
     padding: 20px 0;
+}
+
+.footer-section {
+
+    display: flex;
+    gap: 300px;
+    justify-content: space-between;
+    background-color: #151414;
+    padding: 100px 200px;
+    color: white;
+}
+footer img{
+    margin-right:10px;
+}
+footer p{
+    padding: 15px 0;
+}
+/* .footer-title{
+    margin: 100px 0;
+} */
+input[type=email]{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #151414;
+    padding: 15px 10px;
+    margin: 20px 0;
+}
+.secondary-btn{
+    background-color: white;
+    color: red;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+
 }
