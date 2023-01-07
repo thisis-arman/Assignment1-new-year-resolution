@@ -12,6 +12,7 @@ h2 {
 h3 {
     font-size: 30px;
 }
+/* header-section */
 
 .banner {
     background-image: url("./images/banner/banner1.png");
@@ -46,7 +47,7 @@ h3 {
     border-radius: 5px;
     margin: 20px 0;
 }
-
+ /* main section styles */
 main {
     padding: 100px 180px;
 }
@@ -57,9 +58,13 @@ main {
     justify-content: space-between;
 }
 
+.previous-year-failure p{
+    padding: 10px 0;
+}
 .previous-year-failure {
     padding-left: 50px;
 }
+
 
 .fa-check {
     color: green;
@@ -85,6 +90,9 @@ main {
 .plan-items img {
     padding: 20px 0;
 }
+
+/* path to web development section styles */
+
 .path-web-development{
     text-align: center;
     margin: 100px 0;
@@ -120,6 +128,8 @@ main {
     margin: 15px 0;
 }
 
+/* footer section styles */
+
 .footer-section {
 
     display: flex;
@@ -138,6 +148,10 @@ footer p{
 /* .footer-title{
     margin: 100px 0;
 } */
+
+
+/* forms styles */
+
 input[type=email]{
     border: 1px solid white;
     border-radius: 5px;
