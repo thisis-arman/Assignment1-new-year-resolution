@@ -84,7 +84,26 @@ main {
 .plan-items img {
     padding: 20px 0;
 }
+.path-web-development{
+    text-align: center;
+    margin: 100px 0;
 
+}
+.step-by-step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.step{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin: 20px;
+}
+.step img{
+    padding: 20px 0;
+    width: 30%;
+}
 .mindset{
     margin: 100px 100px;
     background-image: url("/images/gradient2.png"), url("/images/watch.png");
