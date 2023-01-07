@@ -118,6 +118,7 @@ main {
 .mindset{
     margin: 100px 100px;
     background-image: url("./images/gradient2.png"), url("./images/watch.png");
+    background-position:center;
     padding: 40px;
     border-radius: 10px;
 }
