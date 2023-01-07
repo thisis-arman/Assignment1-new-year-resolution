@@ -17,6 +17,7 @@ h3 {
     background-image: url("./images/banner/banner1.png");
     height: 100vh;
     width: 217vh;
+    background-position: center;
 }
 
 .hero-section {
@@ -93,12 +94,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* padding: 15px; */
 
 }
 .step{
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px gray;
     margin: 20px;
+    padding: 10px;
 }
 .step img{
     padding: 20px 0;
