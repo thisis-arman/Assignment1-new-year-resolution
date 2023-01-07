@@ -145,6 +145,12 @@ input[type=email]{
     padding: 15px 10px;
     margin: 20px 0;
 }
+#email{
+    color: white;
+}
+::placeholder{
+    color: white;
+}
 .secondary-btn{
     background-color: white;
     color: red;
